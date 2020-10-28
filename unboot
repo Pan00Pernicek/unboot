@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo poweroff
+sudo poweroff || shutdown now || halt || systemctl shutdown now || systemctl poweroff || systemctl halt|| printf "sorry unboot not work sorry big sorry\npotential fixes: hold down powerbutton on your pc\n"
