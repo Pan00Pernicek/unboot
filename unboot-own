@@ -1,0 +1,5 @@
+#unboot with its own code for unbooting
+#needs unmounting everything? killing everything? maaaybe more??????
+#killall (?)
+#unmount / (?)
+echo `arch`
