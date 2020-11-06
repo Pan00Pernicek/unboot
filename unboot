@@ -4,4 +4,4 @@ suget=$(basename $(which doas sudo su | head -n 1))
 if [ $suget = su ]; then
  suget="su -c"
 fi
-$suget poweroff || shutdown now || halt || systemctl shutdown now || systemctl poweroff || systemctl halt|| printf "sorry unboot not work sorry big sorry\npotential fixes: hold down powerbutton on your pc\n"
+$suget poweroff || shutdown now || systemctl shutdown now || systemctl poweroff || printf "sorry unboot not work sorry big sorry\npotential fixes: hold down powerbutton on your pc\n"
